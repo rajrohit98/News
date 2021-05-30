@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inter;
+}
+
+.all_news
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 0;
+}
+
+.news
+{
+  max-width: 300px;
+}
+
+.news_Title
+{
+  font-size: 34px;
+}
